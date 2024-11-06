@@ -20,10 +20,18 @@ The project may be readily installed and many improved upon.
 - Python 3.10.x - 3.12.x
 - Webcam access
 ### Installation Steps
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Andreas-Wild/DriverDrowsiness.git
+   ```
+2.  Set the src folder as the working directory
+  ```bash
+  DriverDrowsiness/src
+  ```
+3. Install the necessary requirements. (Preferably in a virtual environment)
 ```bash
 pip install -r requirements.txt
 ```
-
 ## Usage
 Ensure that the src folder is set as the working directory
 ```bash
