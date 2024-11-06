@@ -21,13 +21,13 @@ The project may be readily installed and many improved upon.
 - Webcam access
 ### Installation Steps
 1. Clone the repository
-   ```bash
-   git clone https://github.com/Andreas-Wild/DriverDrowsiness.git
-   ```
+```bash
+git clone https://github.com/Andreas-Wild/DriverDrowsiness.git
+```
 2.  Set the src folder as the working directory
-  ```bash
-  DriverDrowsiness/src
-  ```
+```bash
+cd DriverDrowsiness/src
+```
 3. Install the necessary requirements. (Preferably in a virtual environment)
 ```bash
 pip install -r requirements.txt
