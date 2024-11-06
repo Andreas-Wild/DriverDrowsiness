@@ -9,14 +9,11 @@ The project may be readily installed and many improved upon.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Testing](#testing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
 
 ## Demo
 
-
+![Demo of the project](DDD.gif)
 
 ## Installation
 ### Prerequisites
@@ -40,3 +37,7 @@ A window will open that diplays the webcam view. A bounding box along with eye p
 - The `coin` variable may be adjusted in switch between efficiency and accuracy modes. This variable determines whether both eyes are analysed at each frame position.
 - To remove screen annotations the the `verbose` parameter in the `find_eyes` function may be set to `false`.
 - The decision CNN may be readily adjusted and is modular. Provided that the input is a 64x64 greyscale image, the output is a float between (0,1).
+
+## Acknowledgements
+- The face detection pipeline uses the YuNet model found here. ([YuNet](https://github.com/opencv/opencv_zoo/blob/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx))
+- A big thank you to the depratment of applied mathematics at Stellenbosch university!
